@@ -12,6 +12,7 @@ class A extends Thread
 		for(int i=0;i<5;i++)
 		{
 			System.out.println("First :"+i);
+			Thread.sleep(1000);
 		}
 	}
 	catch(Exception e)
@@ -32,6 +33,7 @@ class B extends Thread
 		for(int i=0;i<10;i++)
 		{
 			System.out.println("Second :"+i);
+			Thread.sleep(2000);
 		}
 	}
 	catch(Exception e)
