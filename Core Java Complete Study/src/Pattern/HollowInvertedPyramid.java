@@ -8,7 +8,7 @@ public class HollowInvertedPyramid {
 		{
 			for(int j=0;j<6;j++)
 			{
-				if(i==0|| j==0)
+				if(i==0|| j==0|| j==5-i)
 				{
 					System.out.print("*");
 				}
