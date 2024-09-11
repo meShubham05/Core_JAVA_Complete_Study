@@ -12,7 +12,7 @@ public class HalfInvertedPyramid {
 				{
 					System.out.print("*");
 				}
-			
+		
 			}
 			System.out.println();
 		}
