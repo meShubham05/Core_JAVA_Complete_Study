@@ -1,5 +1,18 @@
 package Pattern;
 
+import java.util.Iterator;
+
+
+
+/*				 *
+    			* *
+    		   * * *
+   			  * * * *
+  			 * * * * *
+ 			* * * * * *
+
+
+*/
 public class PullPyramid {
 
 	public static void main(String x[])
@@ -27,15 +40,16 @@ public class PullPyramid {
 // 	System.out.println();
 //    }
 //
+//	}
+	
 		
-		int n =5;
-		for(int i=0;i<5;i++)
-		{
-			for(int j=n;j>i;j--)
-			{
-				System.out.print("*");
-			}
-		}
-		}
+		// ************************  Another method  ****************************
+		
+		
+		for(int i=0;i<)
+		
+		
+	}
+		
 }
 
