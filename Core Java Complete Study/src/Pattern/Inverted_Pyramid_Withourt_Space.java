@@ -19,7 +19,7 @@ public class Inverted_Pyramid_Withourt_Space {
 		{
 			for(int j=0;j<9;j++)
 			{
-				if(i>=j || j<=8-i)
+				if(i>j || j>=9-i)
 				{
 					System.out.print(" ");
 				}
