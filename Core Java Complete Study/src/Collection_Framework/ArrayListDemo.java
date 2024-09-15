@@ -1,6 +1,7 @@
 package Collection_Framework;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo {
 
@@ -12,10 +13,18 @@ public class ArrayListDemo {
 	
 	ad.add(30);
 	ad.add(40);
-	ad.add(50);
+	ad.add (50);
 	
 	System.out.println(ad);
 	
+	Iterator it = ad.iterator();
+
+			while(it.hasNext())
+			{
+				Object o =it.next();
+				System.out.println(o);
+			}
+			
 	}
 	
 }
