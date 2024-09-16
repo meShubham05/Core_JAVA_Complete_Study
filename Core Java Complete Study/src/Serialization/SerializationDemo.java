@@ -17,7 +17,7 @@ public class SerializationDemo {
 		
 		System.out.println("Serialization started :");
 		
-		FileOutputStream fos = new FileOutputStream("abc.ser");
+		FileOutputStream fos = new FileOutputStream("abc.txt");
 		
 		ObjectOutputStream  oos = new ObjectOutputStream(fos);
 		

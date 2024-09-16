@@ -5,4 +5,5 @@ import java.util.*;
 public interface CollectionDemo extends Iterable {
 	
 	
+	
 }

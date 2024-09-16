@@ -36,9 +36,15 @@ public class ObjectClassDemo {
 	
 	for(int i=0;i<obj.length;i++)
 	{
-		obj[i]=sc.n
+		obj[i]=sc.next();
 	}
 	
+	for(int i=0;i<obj.length;i++)
+	{
+		System.out.println(obj[i]+" ");
 	}
+	
+	
+  }
 	
 }

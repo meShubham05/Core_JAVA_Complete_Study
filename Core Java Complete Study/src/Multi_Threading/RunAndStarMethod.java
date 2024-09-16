@@ -1,6 +1,6 @@
 package Multi_Threading;
 
-public class RunAndStarMethod  extends Thread{
+public class RunAndStarMethod  implements Runnable {
 
 	public void run()
 	{
@@ -18,12 +18,13 @@ public class RunAndStarMethod  extends Thread{
 	}
 	
 	
-	
+	  
 	
 	public static void main(String x[])
 	{
 		RunAndStarMethod r = new RunAndStarMethod();
-		r.start(); // firstly all main thread get executed before child thread
+		Thread t = new Thread(r);
+		t.start(); // firstly all main thread get executed before child thread
 		
 		// r.run(); // firstly  child class executed before main thread 
 		
