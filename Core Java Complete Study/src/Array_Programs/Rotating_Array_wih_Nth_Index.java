@@ -19,15 +19,24 @@ public class Rotating_Array_wih_Nth_Index {
 		System.out.println("Enter the index from which you want to rotate the array :");
 		int index=sc.nextInt();
 		
-		for(int i=index;i<a.length;i++)
+		for(int i=0;i<index;i++)
 		{
-
-			System.out.print(a[i]);
-			for(int j=0;j<=index;j++)
+			int temp=a[0];
+			
+			for(int j=0;j<a.length-1;j++)
 			{
-				a[j]=a[index];
-				index++;
+				a[j]=a[j+1];
 			}
+			
+			a[a.length-1]=temp;
+					
+		}
+		
+		System.out.println("Final Array is :");
+		
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.print(" "+a[i]);
 		}
 		
 	}
