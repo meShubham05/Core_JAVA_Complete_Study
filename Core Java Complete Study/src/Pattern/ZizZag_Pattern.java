@@ -10,8 +10,9 @@ package Pattern;
  		
  		
  */
-public class ZizZag_Pattern {
 
+public class ZizZag_Pattern 
+{
 	public static void main(String x[])
 	{
 		for(int i=0;i<5;i++)

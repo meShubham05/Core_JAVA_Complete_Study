@@ -14,7 +14,6 @@ public class Utility_Class_Demo {
 	
 	public static void main(String x[])
 	{
-		
-		
+		Utility_Class_Demo.show();
 	}
 }
