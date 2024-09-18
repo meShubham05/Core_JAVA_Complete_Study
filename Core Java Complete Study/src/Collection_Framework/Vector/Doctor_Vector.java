@@ -210,6 +210,20 @@ public class Doctor_Vector {
 					
 					i=v.iterator();
 					
+					for(int i=0;i<d.length;i++)
+					{
+						for(int j=i+1;j<d.length;j++)
+						{
+							Object prev =v.get(i);
+							Object next = v.get(j);
+							
+							if((int)prev>(int)next)
+							{
+								v.set(i, next);
+								v.set(j, prev);
+							}
+						}
+					}
 					
 					
 					
