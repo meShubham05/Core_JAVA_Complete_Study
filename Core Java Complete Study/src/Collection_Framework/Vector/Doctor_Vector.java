@@ -223,6 +223,7 @@ public class Doctor_Vector {
 								v.set(j, prev);
 							}
 						}
+						System.out.println();
 					}
 					
 					
