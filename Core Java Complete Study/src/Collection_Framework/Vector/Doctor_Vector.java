@@ -162,7 +162,7 @@ public class Doctor_Vector {
 									
 									System.out.println("Enter the New Id :");
 									int id4 = sc.nextInt();
-									doctor  .setdId(id4);
+									d3.setdId(id4);
 									System.out.println("Id Updated successfully :");
 									
 							break;
@@ -210,28 +210,22 @@ public class Doctor_Vector {
 					
 					i=v.iterator();
 					
-					for(int i=0;i<d.length;i++)
+					for(int j=0;j<d.length;j++)
 					{
-						for(int j=i+1;j<d.length;j++)
+						for(int k=j+1;k<d.length;k++)
 						{
-							Object prev =v.get(i);
-							Object next = v.get(j);
+							Object prev =v.get(j);
+							Object next = v.get(k);
 							
 							if((int)prev>(int)next)
 							{
-								v.set(i, next);
-								v.set(j, prev);
+								v.set(j, next);
+								v.set(k, prev);
 							}
 						}
 						System.out.println();
 					}
-					
-					
-					
-					
 			}
-			
-			
 		}while(choice!=0);
 	}
 
