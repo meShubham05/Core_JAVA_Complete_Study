@@ -39,9 +39,9 @@ package Utility_Class;
 
         // Print the results
         System.out.println("Sum: " +sum);
-        System.out.println("Difference: " + difference);
-        System.out.println("Product: " + product);
-        System.out.println("Maximum: " + maximum);
+        System.out.println("Difference: " +difference);
+        System.out.println("Product: " +product);
+        System.out.println("Maximum: " +maximum);
     }
 }
 

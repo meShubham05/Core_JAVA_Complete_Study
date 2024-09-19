@@ -225,6 +225,10 @@ public class Doctor_Vector {
 						}
 						System.out.println();
 					}
+					break;
+					
+				case 6:
+					
 			}
 		}while(choice!=0);
 	}
