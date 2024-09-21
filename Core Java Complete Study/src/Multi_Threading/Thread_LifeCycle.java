@@ -61,6 +61,8 @@ public class Thread_LifeCycle extends Thread {
     }
 
     public static void main(String[] args) throws InterruptedException {
+    	
+    	 System.out.println("Threading Life Cycle :");
         Object lock1 = new Object(); // Initialize lock object
 
         Thread_LifeCycle tc = new Thread_LifeCycle(lock1); // Pass lock to constructor
@@ -74,6 +76,7 @@ public class Thread_LifeCycle extends Thread {
         tc2.join(); // Wait for tc2 to finish
 
         System.out.println("Main thread: All threads have completed.");
+      
     }
 }
 
