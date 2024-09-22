@@ -3,7 +3,7 @@ package Multi_Threading;
 
 class Child1 extends Thread
 	{    
-	public void run()
+	synchronized public void run()
 	      {
 		  try{
 		    for(int i=1; i<=5; i++)
@@ -11,7 +11,7 @@ class Child1 extends Thread
 			if(i==3)
 			{ stop();
 			}
-			Thread.sleep(10000);
+			Thread.sleep(2000);
 		    } 
 		  }
 		  catch(Exception ex)
@@ -46,6 +46,7 @@ public class ProcessApp
 	 System.out.println("Now status of first thread  "+a1.isAlive());
 	   	Child2 b1 = new Child2();
 		b1.start();
+		System.out.println("Now checking the status of Second thread : "+b1.isAlive());
 	
 	}
 }

@@ -4,7 +4,7 @@ package Multi_Threading;
 class A extends Thread
 {
 	
-	public void run()
+	synchronized public void run()
 	{
 	 
 	try
@@ -13,6 +13,7 @@ class A extends Thread
 		{
 			System.out.println("First :"+i);
 			Thread.sleep(1000);
+			
 		}
 	}
 	catch(Exception e)
@@ -49,7 +50,7 @@ public class JoinThread {
 		A a = new A();
 		a.start();
 		
-		a.join();
+		
 		B b = new B();
 		b.start();
 	

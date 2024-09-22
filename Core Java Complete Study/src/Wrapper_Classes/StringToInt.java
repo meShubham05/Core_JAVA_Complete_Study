@@ -15,7 +15,6 @@ public class StringToInt {
 	String str = sc.nextLine();
 	
 	int num = Integer.parseInt(str);
-	
 	System.out.println("The Number is : "+num);
 	
 	
