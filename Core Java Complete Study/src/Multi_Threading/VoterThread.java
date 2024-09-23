@@ -29,7 +29,8 @@ class Ward{
 }
 class Voter{
 	Ward[] w;
-	void setVoter(Ward[] w) {
+	void setVoter(Ward[] w) 
+	{
 		this.w=w;
 	}
 	synchronized void show() {
@@ -109,6 +110,5 @@ public class VoterThread {
 		c1.setW(v);
 		System.out.println("Ward C");
 		c1.start();
-	} 
-
+	}
 }
