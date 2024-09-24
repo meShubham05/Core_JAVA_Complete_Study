@@ -27,13 +27,15 @@ public class Collection_Methods {
 	do
 	{
 		System.out.println("\n\n1: Display all Data :");
-		System.out.println("2: add new data :");
-		System.out.println("3: Display the size of Data :");
-		System.out.println("4: Enter the index you want remove :");
-		System.out.println("5: Check the data is empty or not :");
-		System.out.println("6 : Check the specific data is present or not :");
-		System.out.println("7: Clear all the data :");
-		
+		System.out.println("2: add single data at a time  :");
+		System.out.println("3: Add multiple data at a time :");
+		System.out.println("4: Display the size of Data :");
+		System.out.println("5: Enter the index you want remove :");
+		System.out.println("6: Check the data is empty or not :");
+		System.out.println("7: Check the specific data is present or not :");
+		System.out.println("8: Check mutiple data is present in collection or not :");
+		System.out.println("9: Clear all the data :");
+		System.out.println("10: exit :");
 		System.out.println("\n Enter Your choice :");
 		
 		choice = sc.nextInt();
@@ -64,7 +66,33 @@ public class Collection_Methods {
 			
 			break;
 			
-		case 3:
+			
+		case 3 : 
+			System.out.println("Enter the size of data you want to add :");
+			int size4 = sc.nextInt();
+			ArrayList al5 = new ArrayList();
+			
+			for(int k=0;k<size4;k++)
+			{
+				int data5 = sc.nextInt();
+				al5.add(data5);
+			}
+			boolean ad = a.addAll(al5);
+			
+			if(ad)
+			{
+				System.out.println("Data added Successfully :");
+				
+			}
+			else
+			{
+				System.out.println("Some problem Occured !!!");
+			}
+			
+			break;
+			
+			
+		case 4:
 			
 			int size = a.size();
 			
@@ -72,7 +100,7 @@ public class Collection_Methods {
 		
 			break;
 			
-		case 4:
+		case 5:
 			
 			System.out.println("Enter the index you want to remove :");
 			
@@ -85,7 +113,7 @@ public class Collection_Methods {
 		
 			break;
 			
-		case 5:
+		case 6:
 			
 			boolean check = a.isEmpty();
 			
@@ -100,7 +128,7 @@ public class Collection_Methods {
 			
 			break;
 			
-		case 6:
+		case 7:
 			
 			int checkData ;
 			
@@ -121,10 +149,51 @@ public class Collection_Methods {
 			break;
 			
 			
-		case 7:
+		case 8 :
+			
+			System.out.println("Enter the size and multiple data to check it is present in the collection or not :");
+			ArrayList al2 = new ArrayList();
+			System.out.println("Enter size of data you want to check :");
+			
+			int size3=sc.nextInt();
+			System.out.println("Enter the data "+size3+" times for checking :");
+			
+			if(size3<=a.size())
+			{
+				for(int j=0;j<size3;j++)
+				{
+					int data4 =sc.nextInt();
+					al2.add(data4);
+				}
+						
+			}
+			
+		
+			if(a.containsAll(al2))
+			{
+				System.out.println("All data is Present in the Collection :");
+			}
+			else
+			{
+				System.out.println("Data is not present in the collection :");
+			}
+			
+			break;
+			
+			
+		case 9:
 			
 			a.clear();
 			System.out.println("Data cleared successfully :");
+			break;
+			
+		case 10:
+			
+			sc.close();
+			break;
+			
+		default :
+			System.out.println("Invalid choice :");
 			
 	}
 		
