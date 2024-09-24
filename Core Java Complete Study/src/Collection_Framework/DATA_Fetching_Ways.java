@@ -43,7 +43,7 @@ public class DATA_Fetching_Ways {
 		
 		ListIterator l = new v.ListIterator(v.size()) ;
 		
-		while(l.hasPrevious())
+		while(l.hasPrevious()) 
 		{
 			Object obj = l.previous();
 			System.out.println(obj);

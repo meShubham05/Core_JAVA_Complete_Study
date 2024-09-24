@@ -30,7 +30,7 @@ public class Remove_Duplicate {
             // If the character is not a duplicate, add it to the result array
             if (!isDuplicate) {
                 result[index++] = ch[i];
-                System.out.println("index :"+index);
+              
             }
         }
 
