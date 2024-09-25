@@ -25,9 +25,9 @@ public class ABC_Pattern {
 			{
 				if(j<=2*i)
 				{
-					if(j>(2*i)/2)
+					if(j>(2*i)/2 )
 					{
-						ch--;
+					ch--;
 					System.out.print(ch+" ");
 					
 					}
@@ -36,7 +36,7 @@ public class ABC_Pattern {
 						System.out.print(ch+" ");
 						ch++;
 					}
-					
+				
 				}
 					
 				}
