@@ -42,7 +42,7 @@ public class Student_Sort_Vector_App {
         System.out.println("Enter the Number of Students you want to add:");
         int size = sc.nextInt();
 
-        Vector v = new Vector();
+        Vector<Student2> v = new Vector<Student2>();
 
        
         for (int i = 0; i < size; i++) {
@@ -76,11 +76,11 @@ public class Student_Sort_Vector_App {
         // Sorting the vector using bubble sort (by Student ID)
         for (int i = 0; i < v.size(); i++) {
             for (int j = i + 1; j < v.size(); j++) {
-                Student2 student1 = (Student2) v.get(i);  // Typecasting
-                Student2 student2 = (Student2) v.get(j);  // Typecasting
+                Student2 student1 = (Student2) v.get(i); 
+                Student2 student2 = (Student2) v.get(j); 
 
                 if (student1.getId() > student2.getId()) {
-                    // Swap students based on ID
+                  
                     v.set(i, student2);
                     v.set(j, student1);
                 }
