@@ -63,7 +63,7 @@ public class Majority_Element {
 					break;
 					
 				}
-			}
+		}
 		
 		if(!flag)
 		{
