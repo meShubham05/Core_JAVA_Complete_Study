@@ -21,7 +21,6 @@ public class ArrayListInternalCapacityCheckingApp {
     // Function to simulate the capacity tracking (based on the size and growth rules)
     private static int getSimulatedCapacity(ArrayList<?> list) {
         int size = list.size();
-        
         // Initial capacity is 10 if not specified
         int capacity = 10;
         if (size > 0) {
