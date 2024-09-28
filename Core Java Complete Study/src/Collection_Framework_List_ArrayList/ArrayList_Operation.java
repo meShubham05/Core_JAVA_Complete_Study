@@ -41,5 +41,7 @@ public class ArrayList_Operation {
 		{
 			System.out.println("["+obj+"]");
 		}
+		
+		 
 	}
 }
