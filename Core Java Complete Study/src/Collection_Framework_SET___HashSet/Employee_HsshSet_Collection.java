@@ -50,7 +50,8 @@ public class Employee_HsshSet_Collection {
 		hs.add(emp1);
 		hs.add(emp2);
 		hs.add(emp3);
-		for(Object obj:hs) {
+		for(Object obj:hs) 
+		{
 			Employee e=(Employee)obj;
 	System.out.println(e.getId()+"\t"+e.getName()+"\t"+e.getSal());
 		}
