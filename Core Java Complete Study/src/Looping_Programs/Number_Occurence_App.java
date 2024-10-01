@@ -17,7 +17,7 @@ public class Number_Occurence_App {
 			
 			count =0;
 			
-			while(num!=0)
+			while(num!=0) 
 			{
 				rem=num%10;
 				
