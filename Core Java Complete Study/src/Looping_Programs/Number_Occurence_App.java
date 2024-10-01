@@ -25,10 +25,8 @@ public class Number_Occurence_App {
 				{
 					count++;
 				}
-				num=num/10;
-				
-			}
-			
+				num=num/10;				
+			}			
 			if(count>=1)
 			{
 				System.out.println(i+"==>"+count);
