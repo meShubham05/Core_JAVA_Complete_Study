@@ -9,7 +9,6 @@ public class Buffer_Reader {
 	public static void main(String x[]) throws IOException, InterruptedException
 
 	{
-
 		FileReader fr = new FileReader("D:\\GIRI TECH HUB\\shubham.txt");
 		
 		BufferedReader br = new BufferedReader(fr);
