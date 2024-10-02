@@ -10,7 +10,7 @@ class Dog implements Serializable
 }
 
 public class SerializationDemo {
-
+ 
 	public static void main(String[] args) throws Exception {
 	
 		Dog d = new Dog();
