@@ -47,8 +47,7 @@ public class Nth_Smallest_Element {
 			if(a[i]==a[i+1])
 			{ count++;
 			}
-		}
-		
+		}		
 		for(int i=0;i<a.length-count-1;i++)
 		{
 			if(a[i]==a[i+1])
@@ -62,8 +61,7 @@ public class Nth_Smallest_Element {
 		for(int i=0;i<a.length-count;i++)
 		{
 			System.out.println(" "+a[i]);
-		}
-		
+		}		
 		System.out.println(index+"th element is :"+a[index-1]);
 	}
 
