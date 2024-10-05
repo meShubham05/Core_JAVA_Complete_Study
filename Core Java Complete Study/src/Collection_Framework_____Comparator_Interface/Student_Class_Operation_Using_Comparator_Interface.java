@@ -92,21 +92,14 @@ public class Student_Class_Operation_Using_Comparator_Interface
 		for(Object obj:al) {
 			Student s=(Student)obj;
 			System.out.println(s.getId()+"\t"+s.getName()+"\t"+s.getMarks());
-		}
-		
-		
-		
-		SortByPer sid = new SortByPer();
-		
-		Collections.sort(al,sid);
-		
+		}		
+		SortByPer sid = new SortByPer();		
+		Collections.sort(al,sid);		
 		System.out.println("ArrayList After sorting");
 		for(Object obj:al) {
 			Student s=(Student)obj;
 			System.out.println(s.getId()+"\t"+s.getName()+"\t"+s.getMarks());
-		}
-
-		
+		}		
 	}
 		
 }
