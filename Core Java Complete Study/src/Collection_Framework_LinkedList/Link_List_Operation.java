@@ -23,9 +23,7 @@ class Product
 	}
 	public void setpPrice(int pPrice) {
 		this.pPrice = pPrice;
-	}
-	
-	
+	}	
 }
 public class Link_List_Operation {
 
@@ -54,8 +52,7 @@ public class Link_List_Operation {
 			p.setpId(id);
 			p.setpName(name);
 			p.setpPrice(price);
-			ll.add(p);
-			
+			ll.add(p);			
 		}
 		
 		for(Product prod :p)
