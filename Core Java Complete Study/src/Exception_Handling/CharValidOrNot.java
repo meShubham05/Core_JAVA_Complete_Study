@@ -8,12 +8,10 @@ public class CharValidOrNot {
 	{
 		UserDefinedException(String msg)
 		{
-			super(msg);
-			
+			super(msg);			
 		}
 		
-	}
-	
+	}	
 	static class ValidCharacterOrNot
 	{
 		public void checkCharacter(char ch[])
@@ -32,8 +30,6 @@ public class CharValidOrNot {
 			
 		}
 	}
-	
-	
 	public static void main(String[] args) {
 		
 	Scanner sc = new Scanner(System.in);
@@ -41,9 +37,7 @@ public class CharValidOrNot {
 	String data;
 		
 	do
-	{
-			
-		
+	{		
 		System.out.println("Enter the String in Character Only :");
 		
 		 data = sc.nextLine();
@@ -53,14 +47,11 @@ public class CharValidOrNot {
 		for(int i=0;i<ch.length;i++)
 		{
 			ch[i]= data.charAt(i);
-		}
-		
+		}		
 		try
 		{
-		ValidCharacterOrNot v = new ValidCharacterOrNot();
-		
-		v.checkCharacter(ch);
-		
+		ValidCharacterOrNot v = new ValidCharacterOrNot();		
+		v.checkCharacter(ch);		
 		}
 		catch(UserDefinedException u)
 		{

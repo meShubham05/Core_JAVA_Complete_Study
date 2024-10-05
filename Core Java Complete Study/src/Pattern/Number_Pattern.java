@@ -14,14 +14,11 @@ public class Number_Pattern {
 			if(i>=j+1)
 			{
 				System.out.print(" ");
-			}
-			
-			
+			}			
 			else
 			{
 				System.out.print(num);
-			
-			num++;
+				num++;
 			}
 		}
 		System.out.println();

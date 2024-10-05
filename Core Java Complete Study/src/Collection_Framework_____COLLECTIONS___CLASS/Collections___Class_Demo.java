@@ -4,8 +4,8 @@ import java.util.*;
  class Employee {
 	private int id;
 
-	public Employee() {
-		
+	public Employee() 
+	{		
 	}
 	public Employee(String name,int id,int sal) {
 		this.name=name;
@@ -59,8 +59,8 @@ public class Collections___Class_Demo {
 			}
 			Collections.sort(al);
 			System.out.println("Display Employee Data After Sorting");
-			for(Object obj:al) {
-				Employee e=(Employee)obj;
+			for(Object obj:al) 
+			{	Employee e=(Employee)obj;
 				System.out.println(e.getId()+"\t"+e.getName()+"\t"+e.getSal());
 			}
 		}
