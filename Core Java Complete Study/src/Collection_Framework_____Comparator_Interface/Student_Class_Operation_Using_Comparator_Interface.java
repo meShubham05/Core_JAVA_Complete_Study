@@ -40,12 +40,10 @@ class Student
 	public void setMarks(float marks) {
 		this.marks = marks;
 	}
-
 }
 
 class SortByPer implements Comparator
 {
-
 	public int compare(Object o1 ,Object o2)
 	{
 		Student s1 = (Student)o1;
