@@ -80,21 +80,14 @@ public class Employee_Sorting_Using_Comparable_Interface
 		al.add(emp3);
 		al.add(emp4);
 		al.add(emp5);
-
-		
-		
 		System.out.println("Employee Data Before Sorting");
 		
 		for(Object obj :al)
 		{
 			Employee emp =(Employee)obj;
 			System.out.println("Employee id :"+emp.getId()+"Employee Name : "+emp.getName()+ " Employee salary :"+emp.getSal());
-		}
-		
-		
+		}	
 		Collections.sort(al);
-		
-		
 		System.out.println("\nEmployee Data After  Sorting \n");
 		
 		for(Object obj :al)
@@ -102,8 +95,5 @@ public class Employee_Sorting_Using_Comparable_Interface
 			Employee emp =(Employee)obj;
 			System.out.println(" Employee id : "+emp.getId()+" Employee Name : "+emp.getName()+ " Employee salary :"+emp.getSal());
 		}
-	}
-
-	
-	
+	}	
 }
