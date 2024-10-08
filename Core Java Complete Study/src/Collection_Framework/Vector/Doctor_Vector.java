@@ -165,8 +165,7 @@ public class Doctor_Vector {
 									d3.setdId(id4);
 									System.out.println("Id Updated successfully :");
 									
-							break;
-							
+							break;							
 							case 2:
 								
 								System.out.println("Enter the Name of the doctor you want to update :");
@@ -226,10 +225,7 @@ public class Doctor_Vector {
 						System.out.println();
 					}
 					break;
-					
-				case 6:
-					
-			}
+		}
 		}while(choice!=0);
 	}
 
