@@ -2,9 +2,7 @@ package Abstract_Classes;
 
  abstract class Parent 
  {
-
-	public  abstract  void show();
-	
+			public abstract void show();
  }
 
 class Child extends Parent
