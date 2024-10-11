@@ -23,7 +23,6 @@ class Ward{
 	}
 	public static void show(Ward[] w) {
 		// TODO Auto-generated method stub
-		
 	}
 	
 }
@@ -45,7 +44,8 @@ class Voter{
 		}
 	}
 }
-class WardA extends Thread{
+class WardA extends Thread
+{
 	Voter v;
 	public void setW(Voter v) {
 	this.v = v;
@@ -55,7 +55,9 @@ class WardA extends Thread{
 		v.show();
 	}
 }
-class WardB extends Thread{
+class WardB extends Thread
+
+{
 	Voter v;
 	public void setW(Voter v) {
 	this.v = v;
@@ -65,7 +67,8 @@ class WardB extends Thread{
 		v.show();
 	}
 }
-class WardC extends Thread{
+class WardC extends Thread
+{
 	Voter v;
 	public void setW(Voter v) {
 	this.v = v;
@@ -76,7 +79,8 @@ class WardC extends Thread{
 	}
 }
 
-public class VoterThread {
+public class VoterThread 
+{
 
 	public static void main(String[] args) {
 		Ward w[]=new Ward[5];
