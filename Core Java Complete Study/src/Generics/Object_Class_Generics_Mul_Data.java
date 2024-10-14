@@ -8,8 +8,7 @@ class Data
 	private float sal;
 	
 	Data()
-	{
-		
+	{		
 	}
 	Data(int id ,String name,float sal)
 	{
@@ -42,9 +41,7 @@ class Data
 	public float getSal()
 	{
 		return sal;
-	}
-	
-	
+	}	
 }
 
 
