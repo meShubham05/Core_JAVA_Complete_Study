@@ -5,8 +5,7 @@ import java.util.*;
 public class StringToInt {
 	
 	public static void main(String x[])
-	{
-	
+	{		
 	
 	Scanner sc = new Scanner(System.in);
 
@@ -19,9 +18,12 @@ public class StringToInt {
 	
 	
 	int num2 = Integer.valueOf(str);
-	
+	 
 	System.out.println("The second number is :"+num2);
 	
-	}
+	int num3=num+num2;
 	
+	System.out.println("The Addition is "+num3);
+	
+	}
 }

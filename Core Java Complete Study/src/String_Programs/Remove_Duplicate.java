@@ -16,7 +16,8 @@ public class Remove_Duplicate {
         char result[] = new char[ch.length]; 
         int index = 0;
 
-        for (int i = 0; i < ch.length; i++) {
+        for (int i = 0; i < ch.length; i++) 
+         {
             boolean isDuplicate = false;
 
            
