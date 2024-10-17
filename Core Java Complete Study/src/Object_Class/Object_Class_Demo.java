@@ -1,5 +1,23 @@
 package Object_Class;
 
+
+
+ /* 
+   		
+   		
+
+boolean equals(Object)
+String toString()
+void wait()
+void wait(int)
+void notify()
+void notifyAll()
+void finalize()
+Class getClass()
+Object clone()
+static{}
+*/
+
 class A
 {
 	

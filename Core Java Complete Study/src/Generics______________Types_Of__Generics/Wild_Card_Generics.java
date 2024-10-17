@@ -26,7 +26,7 @@ public class Wild_Card_Generics {
 	System.out.println(" \nList using Integer  type of Generics :\n");
 	
 	A a = new A();
-	a.showList(l);
+	a.showList(l); 
 	
 	
 	List <Float> f = Arrays.asList(10.1f,20.02f,30.03f,40.04f,50.05f);

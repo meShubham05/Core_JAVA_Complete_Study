@@ -1,7 +1,5 @@
 package Generics______________Types_Of__Generics;
 
-
-
 class Test<E>
 {
 	void show(E e)
