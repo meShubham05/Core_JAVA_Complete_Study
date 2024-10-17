@@ -7,8 +7,7 @@ public class LinkedHashMap_Demo {
 	
 	public static void main(String[] args) 
 	{
-		LinkedHashMap <Integer,String> map = new LinkedHashMap<Integer,String>();
-		
+		LinkedHashMap <Integer,String> map = new LinkedHashMap<Integer,String>();		
 		map.put(2, "Amit");
 		map.put(5,"Sanket");
 		map.put(3,"Rohan");
@@ -18,10 +17,8 @@ public class LinkedHashMap_Demo {
 		map.put(7,"Mahi");
 		map.put(1,"KL Rahul");
 		
-		System.out.println("Size of LinkedHashMap : "+map.size());
-		
-		System.out.println(map);
-		
+		System.out.println("Size of LinkedHashMap : "+map.size());		
+		System.out.println(map);	
 		
 		Set<Integer> set = map.keySet();
 		
