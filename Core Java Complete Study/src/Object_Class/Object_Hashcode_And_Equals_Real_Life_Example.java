@@ -38,8 +38,6 @@ class Book
 		return Integer.hashCode(isbn);
 	}
 	
-	
-	
 }
 public class Object_Hashcode_And_Equals_Real_Life_Example {
 
