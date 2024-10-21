@@ -25,7 +25,7 @@ public class UserDefinedExceptionDemo {
 			{
 				System.out.println("You are allowed to do Vote :");
 			}
-		}
+		} 
 	}
 	
 	

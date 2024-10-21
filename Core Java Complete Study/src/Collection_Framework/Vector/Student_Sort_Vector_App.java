@@ -89,7 +89,8 @@ public class Student_Sort_Vector_App {
 
         // Display student data after sorting
         System.out.println("\nStudent Data After Sorting (by ID):\n");
-        for (int i = 0; i < v.size(); i++) {
+        for (int i = 0; i < v.size(); i++) 
+        {
             Student2 std = (Student2) v.get(i);  // Typecasting since no generics
             System.out.println("Student Id: " + std.getId() + 
                                " Student Name: " + std.getName() + 

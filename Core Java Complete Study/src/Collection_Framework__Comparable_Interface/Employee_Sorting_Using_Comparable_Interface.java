@@ -7,18 +7,17 @@ class Employee implements Comparable
 	private String name ;
 	private int sal;
 	
-	public Employee() {
+	public Employee() 
+	{
 
 	}
 
-	public Employee(String name, int id, int sal) {
+	public Employee(String name, int id, int sal)
+	{
 		this.name = name;
 		this.id = id;
 		this.sal = sal;
 	}
-
-	
-	
 	
 	public int getId() {
 		return id;
@@ -54,13 +53,8 @@ class Employee implements Comparable
 		else
 		{
 			return 0;
-		}
-			
-		
-	}
-	
-	
-	
+		}		
+	}	
 }
 
 public class Employee_Sorting_Using_Comparable_Interface 
