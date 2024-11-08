@@ -19,11 +19,8 @@ public class AnonymousClassUsingAbstractClass {
 						System.out.println("I am show Method of Abstract class A :");
 					}
 				};
-				
-				a.show();
-		
+				a.show();		
 				A a2 =()->System.out.println("I am show Method of Abstract class A :");
-		
 				a2.show();
 				
 				
