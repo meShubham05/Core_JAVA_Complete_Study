@@ -41,11 +41,15 @@ class Employee {
 }
 
 
-class SortBySalary implements Comparator<Employee> {
-    public int compare(Employee e1, Employee e2) {
-        if (e1.getSalary() < e2.getSalary()) {
+class SortBySalary implements Comparator<Employee> 
+{
+    public int compare(Employee e1, Employee e2) 
+    {
+        if (e1.getSalary() < e2.getSalary()) 
+        {
             return -1;
-        } else if (e1.getSalary() > e2.getSalary()) {
+        } else if (e1.getSalary() > e2.getSalary()) 
+        {
             return 1;
         } else {
             return 0;
@@ -70,8 +74,7 @@ class SortByName implements Comparator<Employee>
 			return 0;
 		}
 			
-	}
-	
+	}	
 }
 
 
@@ -79,11 +82,15 @@ class SortById implements Comparator<Employee>
 {
     public int compare(Employee e1, Employee e2) 
     {
-        if (e1.getId() < e2.getId()) {
+        if (e1.getId() < e2.getId()) 
+        {
             return -1;
-        } else if (e1.getId() > e2.getId()) {
+        } 
+        else if (e1.getId() > e2.getId()) 
+        {
             return 1;
-        } else {
+        }
+        else {
             return 0;
         }
     }
