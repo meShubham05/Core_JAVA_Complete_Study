@@ -15,14 +15,26 @@ public class Supplier__Functional__InterfaceDemo {
             }
         };
         
+        Supplier<String> message = new Supplier<String>()
+        		{
+        			public String get()
+        			{
+        				return "I am Supplier Message ";
+        			}
+        		};
+        
+        	System.out.println(message.get());
+        		
+        		
+        
+        
         Date d1 = sup.get();      
         System.out.println("Today's date: " + d1);
         
         
         SimpleDateFormat sdf = new SimpleDateFormat("EEEE, dd MMMM yyyy HH:mm:ss");
         String formattedDate = sdf.format(d1);
-        
-    
         System.out.println("Today's date and time: " + formattedDate);
+        
     }
 }

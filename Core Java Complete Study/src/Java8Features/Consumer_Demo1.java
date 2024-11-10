@@ -40,8 +40,19 @@ public static void main(String[] args)
 		list.add(50);
 		list.add(60);
 		
-		list.forEach((Object obj)->System.out.println(obj));
+//		list.forEach((Object obj)->System.out.println(obj));
 		
+		Consumer con = new Consumer () {
+
+		
+			public void accept(Object t) {
+				
+				System.out.println(t);
+				
+			}
+		};
+			list.forEach(con);
+			
 		
 		
 		List<String> list2 = Arrays.asList("AAA","BBB","CCC","DDD");

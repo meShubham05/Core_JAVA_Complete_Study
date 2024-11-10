@@ -20,8 +20,7 @@ public class AnonymousClassUsingAbstractClass {
 					}
 				};
 				a.show();		
-				A a2 =()->System.out.println("I am show Method of Abstract class A :");
-				a2.show();
+			
 				
 				
 				
