@@ -16,8 +16,10 @@ public class StreamAPI____filter_method {
 
 		System.out.println(list);
 
+		
 		Stream<String> stream = list.stream();
-
+		
+		// Here Configuration starts 
 		Predicate<String> predicate = new Predicate<String>() {
 			public boolean test(String str) {
 				return str.endsWith("sh");
@@ -27,6 +29,9 @@ public class StreamAPI____filter_method {
 
 		Stream<String> stream1 = stream.filter(predicate);
 
+		
+		// Here Processig starts 
+		
 		List<String> newlist = stream1.collect(Collectors.toList());
 
 		Consumer<String> con = new Consumer<String>() {
@@ -38,6 +43,9 @@ public class StreamAPI____filter_method {
 		System.out.println("\n\nAfter Checking the Name that ends with " + "sh \n");
 
 		newlist.forEach(con);
+		
+		
+		
 
 	}
 
