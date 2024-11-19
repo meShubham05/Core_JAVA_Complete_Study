@@ -10,7 +10,6 @@ public static void main(String[] args) {
 	
 	long space = file.getTotalSpace();
 	
-	
 	System.out.println("The total space in your pc is :"+space);
 }
 }
