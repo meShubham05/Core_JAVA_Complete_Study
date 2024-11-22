@@ -34,12 +34,9 @@ public class Shopping_Cart_Real_Life_with_Generic_Interface
 	
 		Electronics e =new Electronics ();
 		e.showDetails(10);
-
 		Clothing c = new Clothing();
-		c.showDetails("XL");
-		
+		c.showDetails("XL");		
 		Groceries  g = new Groceries();
-		g.showDetails(120.f);
-		
+		g.showDetails(120.f);		
 }
 }
