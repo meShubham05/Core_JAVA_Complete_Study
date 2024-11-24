@@ -23,8 +23,7 @@ public class SerializationDemo {
 		
 		oos.writeObject(d);
 
-		System.out.println("Serialization ends :");
-		
+		System.out.println("Serialization ends :");		
 		
 		System.out.println("Deserialization started :");
 		
@@ -36,9 +35,7 @@ public class SerializationDemo {
 		
 		System.out.println("Deserialization Ended :");
 		
-		System.out.println("d1 i :"+d1.i+"  d1 j :"+d1.j);
-		
-		
+		System.out.println("d1 i :"+d1.i+"  d1 j :"+d1.j);		
 	}
 
 }
