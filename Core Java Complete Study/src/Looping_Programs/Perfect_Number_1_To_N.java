@@ -21,9 +21,7 @@ public class Perfect_Number_1_To_N {
 				{
 					sum=sum+j;
 				}
-			}
-			
-			
+			}			
 			if(sum==num)
 			{
 				System.out.println(" "+num);
