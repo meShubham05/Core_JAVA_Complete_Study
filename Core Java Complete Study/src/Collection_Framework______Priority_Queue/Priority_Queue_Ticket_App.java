@@ -7,17 +7,14 @@ class Ticket {
     private String description;
     private int priority;
     private LocalDateTime timestamp;
-
   
     public Ticket() {}
-
 
     public Ticket(String description, int priority) {
         this.description = description;
         this.priority = priority;
         this.timestamp = LocalDateTime.now();
     }
-
   
     public String getDescription() {
         return description;
@@ -30,14 +27,12 @@ class Ticket {
     public LocalDateTime getTime() {
         return timestamp;
     }
-
     
     @Override
     public String toString() {
         return "Ticket Description: " + getDescription() + ", Customer Priority: " + getPriority() + ", Time: " + getTime();
     }
 }
-
 
 class Ticketcompare implements Comparator<Ticket> {
 
