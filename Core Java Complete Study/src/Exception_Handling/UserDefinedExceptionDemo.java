@@ -12,7 +12,6 @@ public class UserDefinedExceptionDemo {
 			super(msg);
 		}
 	}
-	
 	static class CheckVoter
 	{
 		public void checkVoter(int age)
@@ -26,9 +25,7 @@ public class UserDefinedExceptionDemo {
 				System.out.println("You are allowed to do Vote :");
 			}
 		} 
-	}
-	
-	
+	}	
 	public static void main(String x[])
 	{
 		CheckVoter c = new CheckVoter();
