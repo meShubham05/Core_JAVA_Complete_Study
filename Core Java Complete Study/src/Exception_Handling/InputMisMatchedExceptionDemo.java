@@ -20,9 +20,7 @@ public class InputMisMatchedExceptionDemo {
 	        	{
 	        		 if ((ch[i]>='a' && ch[i]<='z' )|| ch2[i]>='a' && ch2[i]<='z' ) {
 			                throw new UserDefinedException("You entered an invalid number:");
-			            } 
-	        		 
-	        		 
+			            }         		 
 	        	}
 	        	
 	           
